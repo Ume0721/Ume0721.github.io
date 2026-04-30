@@ -1,0 +1,12 @@
+{
+  "name": "Ume0721.github.io",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "nisheetjain.emacs",
+        "letrieu.expand-region"
+      ]
+    }
+  }
+}

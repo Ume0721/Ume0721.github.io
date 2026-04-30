@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1800" viewBox="0 0 1600 1800" role="img" aria-labelledby="title desc">
+  <title id="title">Ume0721.github.io 快捷键总览</title>
+  <desc id="desc">包含仓库配置的 VS Code 快捷键，以及默认 bash 终端常用快捷键。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="45%" stop-color="#111b2f"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101b31"/>
+      <stop offset="100%" stop-color="#0c1527"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <style>
+      .title { font: 700 56px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; letter-spacing: 0.5px; }
+      .subtitle { font: 400 22px "Inter", "Segoe UI", Arial, sans-serif; fill: #cbd5e1; }
+      .section { font: 700 26px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; }
+      .note { font: 500 18px "Inter", "Segoe UI", Arial, sans-serif; fill: #a5b4fc; }
+      .card-title { font: 700 24px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; }
+      .card-sub { font: 500 16px "Inter", "Segoe UI", Arial, sans-serif; fill: #94a3b8; }
+      .item-key { font: 700 18px "SFMono-Regular", Consolas, "Liberation Mono", monospace; fill: #f8fafc; }
+      .item-desc { font: 400 18px "Inter", "Segoe UI", Arial, sans-serif; fill: #dbeafe; }
+      .small { font: 400 16px "Inter", "Segoe UI", Arial, sans-serif; fill: #cbd5e1; }
+      .chip { font: 700 14px "SFMono-Regular", Consolas, "Liberation Mono", monospace; fill: #04111b; }
+      .footer { font: 400 17px "Inter", "Segoe UI", Arial, sans-serif; fill: #cbd5e1; }
+      .footer-strong { font: 700 17px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1800" fill="url(#bg)"/>
+  <rect width="1600" height="1800" fill="url(#grid)"/>
+
+  <circle cx="1430" cy="180" r="240" fill="#14b8a6" fill-opacity="0.10"/>
+  <circle cx="220" cy="1570" r="260" fill="#f59e0b" fill-opacity="0.08"/>
+  <circle cx="1460" cy="1470" r="180" fill="#38bdf8" fill-opacity="0.08"/>
+
+  <g transform="translate(100 78)">
+    <text class="title" x="0" y="0">Ume0721.github.io 快捷键总览</text>
+    <text class="subtitle" x="0" y="46">把仓库里配置到的 VS Code 快捷键，和默认 bash 终端常用操作，收进一张可打印海报。</text>
+    <text class="note" x="0" y="86">来源：.vscode/keybindings.json、.vscode/settings.json、.vscode/extensions.json、.devcontainer/devcontainer.json</text>
+  </g>
+
+  <g transform="translate(100 190)">
+    <rect x="0" y="0" width="430" height="44" rx="22" fill="url(#accent)"/>
+    <text class="chip" x="22" y="28">VS Code / 仓库配置</text>
+    <text class="section" x="0" y="74">Emacs 风格快捷键</text>
+  </g>
+
+  <g transform="translate(100 320)" filter="url(#shadow)">
+    <rect x="0" y="0" width="680" height="360" rx="28" fill="url(#card)" stroke="#22304a" stroke-width="1.2"/>
+    <text class="card-title" x="28" y="44">窗口 / 组</text>
+    <text class="card-sub" x="28" y="72">编辑器分组与窗口操作</text>
+
+    <text class="item-key" x="28" y="118">Ctrl+X Ctrl+S</text><text class="item-desc" x="250" y="118">保存文件</text>
+    <text class="item-key" x="28" y="156">Ctrl+X Ctrl+W</text><text class="item-desc" x="250" y="156">关闭当前编辑器</text>
+    <text class="item-key" x="28" y="194">Ctrl+X 2</text><text class="item-desc" x="250" y="194">向下分割编辑器</text>
+    <text class="item-key" x="28" y="232">Ctrl+X 3</text><text class="item-desc" x="250" y="232">向右分割编辑器</text>
+    <text class="item-key" x="28" y="270">Ctrl+X 1</text><text class="item-desc" x="250" y="270">关闭其他组</text>
+    <text class="item-key" x="28" y="308">Ctrl+X O</text><text class="item-desc" x="250" y="308">切到下一个组</text>
+    <text class="item-key" x="28" y="346">Ctrl+X Shift+O</text><text class="item-desc" x="250" y="346">切到上一个组</text>
+  </g>
+
+  <g transform="translate(820 320)" filter="url(#shadow)">
+    <rect x="0" y="0" width="680" height="360" rx="28" fill="url(#card)" stroke="#22304a" stroke-width="1.2"/>
+    <text class="card-title" x="28" y="44">命令 / 搜索</text>
+    <text class="card-sub" x="28" y="72">命令面板、快速打开、查找替换</text>
+
+    <text class="item-key" x="28" y="118">Alt+X</text><text class="item-desc" x="250" y="118">显示命令</text>
+    <text class="item-key" x="28" y="156">Ctrl+S</text><text class="item-desc" x="250" y="156">快速打开</text>
+    <text class="item-key" x="28" y="194">Ctrl+H</text><text class="item-desc" x="250" y="194">查找 / 替换</text>
+    <text class="item-key" x="28" y="232">Ctrl+Shift+F</text><text class="item-desc" x="250" y="232">搜索视图</text>
+    <text class="small" x="28" y="308">Ctrl+Shift+F 仅在搜索视图可见时可用。</text>
+    <text class="small" x="28" y="336">M-x / C-s / C-h 来自 nisheetjain.emacs 的 Emacs 风格映射。</text>
+  </g>
+
+  <g transform="translate(100 710)" filter="url(#shadow)">
+    <rect x="0" y="0" width="680" height="360" rx="28" fill="url(#card)" stroke="#22304a" stroke-width="1.2"/>
+    <text class="card-title" x="28" y="44">编辑 / 选择</text>
+    <text class="card-sub" x="28" y="72">常用编辑、选择和剪贴板操作</text>
+
+    <text class="item-key" x="28" y="118">Ctrl+/</text><text class="item-desc" x="250" y="118">注释当前行</text>
+    <text class="item-key" x="28" y="156">Ctrl+Shift+Z</text><text class="item-desc" x="250" y="156">重做</text>
+    <text class="item-key" x="28" y="194">Ctrl+A</text><text class="item-desc" x="250" y="194">全选</text>
+    <text class="item-key" x="28" y="232">Alt+W</text><text class="item-desc" x="250" y="232">复制</text>
+    <text class="item-key" x="28" y="270">Alt+Shift+W</text><text class="item-desc" x="250" y="270">缩小选择</text>
+    <text class="item-key" x="28" y="308">Ctrl+W</text><text class="item-desc" x="250" y="308">删除行</text>
+    <text class="item-key" x="28" y="346">Ctrl+Y</text><text class="item-desc" x="250" y="346">粘贴</text>
+  </g>
+
+  <g transform="translate(820 710)" filter="url(#shadow)">
+    <rect x="0" y="0" width="680" height="360" rx="28" fill="url(#card)" stroke="#22304a" stroke-width="1.2"/>
+    <text class="card-title" x="28" y="44">配置摘要</text>
+    <text class="card-sub" x="28" y="72">这份图是从仓库现有配置读出来的</text>
+
+    <text class="item-key" x="28" y="118">.vscode/settings.json</text><text class="item-desc" x="320" y="118">界面简化 + 终端默认 bash</text>
+    <text class="item-key" x="28" y="156">.vscode/extensions.json</text><text class="item-desc" x="320" y="156">推荐 emacs / expand-region</text>
+    <text class="item-key" x="28" y="194">.vscode/keybindings.json</text><text class="item-desc" x="320" y="194">当前快捷键全集</text>
+    <text class="item-key" x="28" y="232">.devcontainer/devcontainer.json</text><text class="item-desc" x="320" y="232">Ubuntu 基础容器</text>
+    <text class="small" x="28" y="288">仓库没有额外的终端 keybinding；终端部分使用 bash / readline 的常用默认键位。</text>
+    <text class="small" x="28" y="322">如果你要把它放进主页，我可以再给你补一个 HTML 预览页。</text>
+  </g>
+
+  <g transform="translate(100 1120)">
+    <rect x="0" y="0" width="1400" height="54" rx="27" fill="#0f1a2c" stroke="#2a3a57" stroke-width="1"/>
+    <text class="section" x="28" y="36">终端 / bash 默认操作</text>
+    <text class="small" x="430" y="36">仓库只指定默认终端为 bash，并未改写终端快捷键；以下是常用 readline / shell 操作。</text>
+  </g>
+
+  <g transform="translate(100 1200)" filter="url(#shadow)">
+    <rect x="0" y="0" width="1400" height="420" rx="28" fill="url(#card)" stroke="#22304a" stroke-width="1.2"/>
+
+    <g transform="translate(28 52)">
+      <rect x="0" y="0" width="620" height="320" rx="20" fill="#0b1323" stroke="#20304a" stroke-width="1"/>
+      <text class="card-title" x="20" y="38">常用 shell / readline</text>
+      <text class="item-key" x="20" y="82">Ctrl+C</text><text class="item-desc" x="170" y="82">中断当前命令</text>
+      <text class="item-key" x="20" y="120">Ctrl+L</text><text class="item-desc" x="170" y="120">清屏</text>
+      <text class="item-key" x="20" y="158">Ctrl+R</text><text class="item-desc" x="170" y="158">反向搜索历史</text>
+      <text class="item-key" x="20" y="196">Tab</text><text class="item-desc" x="170" y="196">自动补全</text>
+      <text class="item-key" x="20" y="234">Ctrl+A / Ctrl+E</text><text class="item-desc" x="170" y="234">行首 / 行尾</text>
+      <text class="item-key" x="20" y="272">Ctrl+W / Alt+D</text><text class="item-desc" x="170" y="272">删前词 / 删后词</text>
+      <text class="item-key" x="20" y="310">Ctrl+U / Ctrl+K</text><text class="item-desc" x="170" y="310">删到行首 / 行尾</text>
+    </g>
+
+    <g transform="translate(752 52)">
+      <rect x="0" y="0" width="620" height="320" rx="20" fill="#0b1323" stroke="#20304a" stroke-width="1"/>
+      <text class="card-title" x="20" y="38">会话 / 历史</text>
+      <text class="item-key" x="20" y="82">Ctrl+D</text><text class="item-desc" x="170" y="82">EOF / 退出空行 shell</text>
+      <text class="item-key" x="20" y="120">Ctrl+Z</text><text class="item-desc" x="170" y="120">挂起当前进程</text>
+      <text class="item-key" x="20" y="158">↑ / ↓</text><text class="item-desc" x="170" y="158">浏览命令历史</text>
+      <text class="item-key" x="20" y="196">Ctrl+P / Ctrl+N</text><text class="item-desc" x="170" y="196">历史上一条 / 下一条</text>
+      <text class="item-key" x="20" y="234">Ctrl+F / Ctrl+B</text><text class="item-desc" x="170" y="234">前进 / 后退一个字符</text>
+      <text class="item-key" x="20" y="272">Alt+F / Alt+B</text><text class="item-desc" x="170" y="272">前进 / 后退一个词</text>
+      <text class="item-key" x="20" y="310">Ctrl+T</text><text class="item-desc" x="170" y="310">交换相邻字符</text>
+    </g>
+  </g>
+
+  <g transform="translate(100 1650)">
+    <rect x="0" y="0" width="1400" height="96" rx="24" fill="#0b1323" stroke="#24324a" stroke-width="1"/>
+    <text class="footer" x="26" y="36">主键位行为来自</text><text class="footer-strong" x="170" y="36">nisheetjain.emacs</text><text class="footer" x="360" y="36">，选择缩放来自</text><text class="footer-strong" x="490" y="36">letrieu.expand-region</text><text class="footer" x="688" y="36">。</text>
+    <text class="footer" x="26" y="66">如果你要，我可以再把这张图改成更适合打印的 A4 版，或者补一个网页预览页。</text>
+  </g>
+</svg>
