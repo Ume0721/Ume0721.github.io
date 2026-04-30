@@ -8,15 +8,15 @@ echo ""
 
 if command -v g++ &> /dev/null; then
     echo "[✓] 检测到g++编译器，开始编译..."
-    g++ -o HuffmanSystem HuffmanSystem.cpp -std=c++11
+    g++ -o HuffmanSystem.exe HuffmanSystem.cpp -std=c++11
 
     if [ $? -eq 0 ]; then
         echo ""
         echo "[✓] 编译成功！"
-        echo "[✓] 已生成: HuffmanSystem"
+        echo "[✓] 已生成: HuffmanSystem.exe"
         echo ""
         read -p "按Enter键运行程序..."
-        ./HuffmanSystem
+        ./HuffmanSystem.exe
     else
         echo "[×] 编译失败，请检查代码或C++环境"
     fi
